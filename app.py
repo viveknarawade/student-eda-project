@@ -24,31 +24,48 @@ def load_data():
 def clean_data(df: pd.DataFrame) -> tuple[pd.DataFrame, int]:
     clean = df.copy()
 
-    # Coerce age to numeric
+    # 🔹 Convert columns to best possible types (important for pandas 2.x)
+    clean = clean.infer_objects(copy=False)
+
+    # 🔹 Convert age to numeric (handle "twenty", "", etc.)
     if "age" in clean.columns:
         clean["age"] = pd.to_numeric(clean["age"], errors="coerce")
 
-    # Normalise gender capitalisation
+    # 🔹 Standardize gender values
     if "gender" in clean.columns:
-        clean["gender"] = clean["gender"].str.strip().str.capitalize()
+        clean["gender"] = clean["gender"].astype(str).str.strip().str.capitalize()
 
-    # Remove duplicates
+    # 🔹 Remove duplicates
     before = len(clean)
-    clean = clean.drop_duplicates()
+
+    # If roll_no exists → best way
+    if "roll_no" in clean.columns:
+        clean = clean.drop_duplicates(subset=["roll_no"], keep="last")
+    else:
+        clean = clean.drop_duplicates()
+
     removed_dups = before - len(clean)
 
-    # Fill missing values (inplace=True is deprecated → use assignment)
+    # 🔹 Handle missing values safely
     for col in clean.columns:
-        if clean[col].dtype == "object":
-            clean[col] = clean[col].fillna(clean[col].mode()[0])
-        else:
-            if clean[col].skew() > 1:
-                clean[col] = clean[col].fillna(clean[col].median())
-            else:
-                clean[col] = clean[col].fillna(clean[col].mean())
+        try:
+            if pd.api.types.is_numeric_dtype(clean[col]):  # ✅ safe numeric check
+                skew_val = clean[col].skew()
 
-    # Derived columns
-    score_cols = [c for c in clean.columns if "score" in c.lower()]
+                if pd.notna(skew_val) and skew_val > 1:
+                    clean[col] = clean[col].fillna(clean[col].median())
+                else:
+                    clean[col] = clean[col].fillna(clean[col].mean())
+            else:
+                mode = clean[col].mode()
+                clean[col] = clean[col].fillna(mode[0] if not mode.empty else "")
+        except Exception:
+            # fallback safety
+            clean[col] = clean[col].fillna("")
+
+    # 🔹 Create derived columns (scores)
+    score_cols = [c for c in clean.columns if c.lower() in ["math", "physics", "chemistry", "english"]]
+
     if score_cols:
         clean["total_score"] = clean[score_cols].sum(axis=1)
         clean["avg_score"] = clean[score_cols].mean(axis=1).round(2)
