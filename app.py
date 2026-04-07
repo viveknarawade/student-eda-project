@@ -309,6 +309,7 @@ with tabs[7]:
 
     st.dataframe(scaled_df[numeric_cols].head(10).style.format("{:.4f}"), use_container_width=True)
 
+hue = None
 # ── Tab 9: Advanced Viz ───────────────────────
 with tabs[8]:
     st.header("Advanced Visualisation")
