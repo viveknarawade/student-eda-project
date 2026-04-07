@@ -1,0 +1,221 @@
+roll_no,name,age,gender,college,math,physics,chemistry,english
+R001,Meena,19,FEMALE,VIT,41,72,43.0,41.0
+R002,Pooja,twenty,female,SPPU,194,63,,59.0
+R003,Neha,22,Female,VIT,93,96,,
+R004,Yash,twenty one,FEMALE,VIT,94,52,,89.0
+R005,Anjali,twenty,Male,MIT,75,100,67.0,44.0
+R006,Arjun,twenty one,Female,MIT,40,88,48.0,
+R007,Dev,,female,VIT,100,81,,
+R008,Ravi,twenty one,female,MIT,68,68,71.0,76.0
+R009,Tanvi,22,Male,,76,55,59.0,
+R010,Isha,twenty,Female,MIT,66,43,99.0,82.0
+R011,Neha,,Female,SPPU,49,69,81.0,44.0
+R012,Riya,twenty one,FEMALE,PCCOE,66,81,48.0,64.0
+R013,Neha,twenty one,Male,VIT,48,92,,
+R014,Priya,twenty one,female,SPPU,59,91,40.0,
+R015,Neha,19,Male,,48,93,96.0,
+R016,Aman,twenty one,Male,SPPU,78,70,45.0,62.0
+R017,Simran,,Male,PCCOE,91,64,,64.0
+R018,Pooja,twenty one,Male,SPPU,127,77,71.0,57.0
+R019,Neha,twenty,FEMALE,PCCOE,61,51,47.0,53.0
+R020,Nikita,18,female,COEP,49,99,77.0,55.0
+R021,Karan,,Male,SPPU,74,81,49.0,76.0
+R022,Dev,twenty one,Male,,54,54,46.0,57.0
+R023,Isha,,female,,72,57,,85.0
+R024,Meena,,FEMALE,MIT,73,59,80.0,
+R025,Sahil,twenty,FEMALE,,98,11,85.0,88.0
+R026,Pooja,twenty,Female,PCCOE,56,59,87.0,
+R027,Simran,19,FEMALE,COEP,84,94,,
+R028,Amit,twenty,Female,PCCOE,87,40,,
+R029,Meena,,FEMALE,VIT,49,85,,
+R030,Pooja,twenty one,Male,VIT,68,49,98.0,
+R031,Nikita,,FEMALE,COEP,95,56,57.0,
+R032,Sneha,18,Male,MIT,68,77,52.0,
+R033,Karan,twenty one,Female,,47,82,73.0,97.0
+R034,Sneha,22,female,PCCOE,45,44,51.0,
+R035,Sneha,twenty one,Female,COEP,43,97,,98.0
+R036,Nikita,19,Female,SPPU,78,52,73.0,96.0
+R037,Rohit,,Male,,68,71,66.0,72.0
+R038,Karan,twenty,FEMALE,PCCOE,85,86,77.0,55.0
+R039,Sneha,twenty,Female,COEP,82,64,,58.0
+R040,Simran,21,Female,SPPU,90,74,,61.0
+R041,Pooja,22,FEMALE,MIT,91,17,76.0,84.0
+R042,Isha,twenty one,Female,MIT,82,53,,
+R043,Sahil,,Male,,75,47,,90.0
+R044,Tanvi,twenty one,FEMALE,PCCOE,90,50,,64.0
+R045,Karan,twenty,female,MIT,60,99,91.0,95.0
+R046,Yash,,FEMALE,MIT,73,85,99.0,
+R047,Kunal,,female,SPPU,123,59,77.0,69.0
+R048,Arjun,23,female,COEP,91,51,41.0,
+R049,Neha,,female,MIT,80,87,54.0,
+R050,Neha,twenty one,Female,MIT,45,63,,
+R051,Dev,twenty,Female,MIT,88,69,51.0,
+R052,Nikita,23,FEMALE,SPPU,82,45,,
+R053,Anjali,twenty one,FEMALE,,69,5,80.0,42.0
+R054,Rohit,twenty one,FEMALE,,67,97,,
+R055,Pooja,21,Female,MIT,75,73,,63.0
+R056,Arjun,,FEMALE,MIT,65,61,86.0,
+R057,Tanvi,twenty,female,COEP,53,86,,
+R058,Simran,21,FEMALE,VIT,68,81,,91.0
+R059,Karan,24,FEMALE,PCCOE,74,77,,
+R060,Riya,20,female,MIT,80,92,,55.0
+R061,Aman,twenty one,Male,PCCOE,68,44,,54.0
+R062,Pooja,twenty one,FEMALE,COEP,44,99,,
+R063,Meena,twenty one,female,,91,90,54.0,
+R064,Sahil,twenty,Female,PCCOE,96,54,,
+R065,Ravi,19,Male,VIT,43,93,79.0,48.0
+R066,Karan,twenty one,female,COEP,90,42,53.0,84.0
+R067,Sahil,twenty,Female,VIT,85,71,,91.0
+R068,Rahul,twenty one,female,,91,54,83.0,95.0
+R069,Yash,twenty one,female,VIT,189,53,,
+R070,Anjali,,Male,MIT,144,77,96.0,58.0
+R071,Rahul,19,Male,COEP,58,80,99.0,95.0
+R072,Sahil,twenty,FEMALE,,94,46,52.0,89.0
+R073,Priya,twenty one,FEMALE,VIT,41,97,97.0,
+R074,Priya,twenty,Male,PCCOE,68,81,90.0,75.0
+R075,Tanvi,twenty one,Male,COEP,56,40,,
+R076,Nikita,,Female,COEP,55,86,79.0,
+R077,Dev,twenty one,FEMALE,VIT,42,54,83.0,
+R078,Dev,19,Male,VIT,66,88,82.0,82.0
+R079,Kunal,,Male,MIT,48,91,60.0,86.0
+R080,Arjun,twenty one,FEMALE,MIT,55,100,77.0,56.0
+R081,Tanvi,22,FEMALE,COEP,62,88,90.0,73.0
+R082,Kunal,twenty one,female,PCCOE,75,58,,
+R083,Amit,twenty,FEMALE,,42,100,,
+R084,Riya,twenty,female,,55,87,70.0,
+R085,Pooja,,female,COEP,78,86,43.0,83.0
+R086,Isha,twenty,Male,COEP,94,69,,
+R087,Ravi,twenty one,female,,76,53,89.0,87.0
+R088,Nikita,20,Female,PCCOE,71,55,,47.0
+R089,Sneha,twenty one,female,MIT,81,48,88.0,
+R090,Riya,twenty one,Male,PCCOE,41,88,,79.0
+R091,Yash,,Female,COEP,87,87,,
+R092,Simran,twenty,Female,VIT,91,99,,
+R093,Arjun,18,Male,SPPU,68,53,,
+R094,Yash,twenty,Male,MIT,77,97,,
+R095,Rohit,twenty one,FEMALE,COEP,57,51,,
+R096,Yash,,female,,73,83,40.0,
+R097,Karan,,Female,,90,77,,69.0
+R098,Rohit,,FEMALE,,41,44,51.0,
+R099,Meena,twenty,FEMALE,MIT,53,93,,61.0
+R100,Nikita,twenty one,female,,65,85,,92.0
+R101,Priya,twenty,FEMALE,VIT,68,56,,
+R102,Amit,19,Female,MIT,185,61,,60.0
+R103,Anjali,twenty one,Male,MIT,58,20,91.0,66.0
+R104,Karan,18,Female,COEP,92,100,69.0,88.0
+R105,Arjun,twenty,FEMALE,PCCOE,68,98,,
+R106,Rahul,,FEMALE,SPPU,48,59,90.0,51.0
+R107,Anjali,,FEMALE,,63,99,92.0,60.0
+R108,Kunal,twenty,FEMALE,COEP,65,96,,
+R109,Anjali,twenty one,Male,SPPU,91,49,75.0,
+R110,Sneha,twenty,FEMALE,PCCOE,99,57,,
+R111,Yash,21,FEMALE,VIT,52,75,52.0,
+R112,Rohit,,FEMALE,SPPU,57,95,,81.0
+R113,Amit,19,female,,43,52,89.0,87.0
+R114,Kunal,,FEMALE,,95,6,59.0,52.0
+R115,Pooja,21,FEMALE,VIT,56,65,80.0,93.0
+R116,Sneha,twenty one,Male,COEP,48,85,87.0,
+R117,Ravi,21,female,MIT,55,54,64.0,52.0
+R118,Ravi,twenty,Female,MIT,61,94,100.0,
+R119,Rohit,twenty,Female,MIT,74,76,53.0,61.0
+R120,Ravi,,female,VIT,51,96,,
+R121,Karan,20,Female,MIT,50,96,75.0,
+R122,Amit,twenty,Male,PCCOE,70,97,,
+R123,Aman,,Female,MIT,82,100,,
+R124,Rahul,18,female,VIT,74,95,98.0,
+R125,Ravi,twenty,Female,,89,10,96.0,
+R126,Isha,22,Female,PCCOE,56,61,,
+R127,Anjali,,female,,81,70,80.0,94.0
+R128,Tanvi,22,female,,89,71,,
+R129,Neha,twenty one,Female,MIT,48,88,77.0,99.0
+R130,Dev,twenty one,Female,,93,52,,64.0
+R131,Priya,twenty one,Female,SPPU,85,98,,
+R132,Ravi,twenty one,Male,MIT,42,94,,
+R133,Priya,23,female,SPPU,74,73,49.0,60.0
+R134,Sneha,,Female,VIT,70,100,,80.0
+R135,Arjun,,female,VIT,92,68,52.0,90.0
+R136,Neha,twenty one,female,SPPU,51,79,70.0,
+R137,Riya,twenty one,female,SPPU,45,80,,
+R138,Amit,22,female,VIT,55,51,41.0,
+R139,Anjali,twenty,female,MIT,65,64,58.0,40.0
+R140,Simran,21,Female,PCCOE,40,0,51.0,99.0
+R141,Meena,twenty one,Male,MIT,76,65,,75.0
+R142,Anjali,twenty one,female,,70,60,84.0,
+R143,Pooja,23,female,PCCOE,57,47,,
+R144,Arjun,,female,MIT,48,56,91.0,
+R145,Meena,19,FEMALE,VIT,78,81,,
+R146,Sahil,twenty one,FEMALE,MIT,44,84,95.0,
+R147,Simran,19,Female,PCCOE,96,92,,63.0
+R148,Priya,twenty,FEMALE,MIT,64,94,98.0,43.0
+R149,Isha,twenty one,Male,COEP,170,47,84.0,
+R150,Karan,21,Male,COEP,47,58,,86.0
+R151,Priya,21,Male,PCCOE,99,61,,89.0
+R152,Kunal,twenty,female,,78,82,,87.0
+R153,Sahil,twenty one,Male,MIT,74,57,,74.0
+R154,Dev,,Male,MIT,66,96,,89.0
+R155,Arjun,,Male,,58,98,64.0,53.0
+R156,Rohit,twenty one,Female,VIT,72,43,,90.0
+R157,Rahul,twenty,Male,SPPU,77,47,,62.0
+R158,Rahul,21,Male,MIT,51,53,,
+R159,Amit,,FEMALE,MIT,90,86,,
+R160,Rahul,twenty,Female,COEP,78,55,,
+R161,Ravi,,Male,,127,58,66.0,69.0
+R162,Aman,23,Male,,74,99,45.0,
+R163,Rahul,24,Male,VIT,64,44,,75.0
+R164,Anjali,twenty,female,MIT,41,73,,
+R165,Neha,22,FEMALE,VIT,89,75,,
+R166,Dev,,FEMALE,SPPU,52,60,,
+R167,Nikita,twenty one,female,PCCOE,69,78,,86.0
+R168,Rohit,twenty one,female,VIT,42,95,80.0,
+R169,Amit,,Female,VIT,55,55,,58.0
+R170,Isha,18,Male,,58,82,46.0,88.0
+R171,Simran,20,Female,COEP,163,16,86.0,
+R172,Meena,,Female,SPPU,176,100,,
+R173,Priya,,FEMALE,COEP,43,81,40.0,43.0
+R174,Anjali,22,Female,,46,64,,60.0
+R175,Karan,24,Female,,64,47,,
+R176,Meena,twenty one,Male,MIT,88,69,,
+R177,Anjali,twenty,FEMALE,,54,57,69.0,
+R178,Dev,,FEMALE,SPPU,40,47,,52.0
+R179,Sahil,twenty one,FEMALE,VIT,98,51,,95.0
+R180,Aman,twenty,Female,PCCOE,82,19,,51.0
+R181,Rahul,twenty one,Male,COEP,45,42,,
+R182,Meena,22,FEMALE,,98,57,100.0,
+R183,Arjun,,Female,MIT,48,42,65.0,
+R184,Isha,22,female,SPPU,75,9,,43.0
+R185,Aman,twenty,FEMALE,MIT,84,62,,69.0
+R186,Riya,22,FEMALE,,40,40,,89.0
+R187,Riya,twenty,Male,COEP,88,94,94.0,82.0
+R188,Sneha,24,FEMALE,PCCOE,77,76,74.0,57.0
+R189,Riya,,Male,,82,91,50.0,
+R190,Pooja,,Male,MIT,63,12,72.0,
+R191,Anjali,23,FEMALE,,59,77,,46.0
+R192,Rohit,,Female,VIT,146,96,42.0,
+R193,Sneha,,Female,COEP,72,63,,67.0
+R194,Pooja,twenty one,female,SPPU,59,44,,98.0
+R195,Amit,,Female,MIT,80,51,,
+R196,Sahil,18,Male,,79,67,92.0,50.0
+R197,Tanvi,,FEMALE,SPPU,69,77,72.0,
+R198,Dev,,Female,MIT,58,76,,
+R199,Isha,19,female,,91,79,,56.0
+R200,Priya,twenty one,FEMALE,PCCOE,70,86,64.0,
+R096,Yash,,female,,73,83,40.0,
+R016,Aman,twenty one,Male,SPPU,78,70,45.0,62.0
+R031,Nikita,,FEMALE,COEP,95,56,57.0,
+R159,Amit,,FEMALE,MIT,90,86,,
+R129,Neha,twenty one,Female,MIT,48,88,77.0,99.0
+R116,Sneha,twenty one,Male,COEP,48,85,87.0,
+R070,Anjali,,Male,MIT,144,77,96.0,58.0
+R171,Simran,20,Female,COEP,163,16,86.0,
+R175,Karan,24,Female,,64,47,,
+R046,Yash,,FEMALE,MIT,73,85,99.0,
+R067,Sahil,twenty,Female,VIT,85,71,,91.0
+R183,Arjun,,Female,MIT,48,42,65.0,
+R166,Dev,,FEMALE,SPPU,52,60,,
+R079,Kunal,,Male,MIT,48,91,60.0,86.0
+R187,Riya,twenty,Male,COEP,88,94,94.0,82.0
+R178,Dev,,FEMALE,SPPU,40,47,,52.0
+R057,Tanvi,twenty,female,COEP,53,86,,
+R153,Sahil,twenty one,Male,MIT,74,57,,74.0
+R083,Amit,twenty,FEMALE,,42,100,,
+R069,Yash,twenty one,female,VIT,189,53,,
