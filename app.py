@@ -367,4 +367,3 @@ with tabs[8]:
     plt.close(fig)
 
 st.divider()
-st.success("✅ Full Advanced EDA Completed!")
